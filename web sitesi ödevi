@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+ <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  .kucuk-resim {
+    width: 100px;
+    height: 200px;
+    background: #aaa;
+  }
+  </style>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1>IoT Teknolojisi (Nesnelerin İnterneti) Nedir?</h1>
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <a class="navbar-brand" href="#">Ana Sayfa</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sosyal Öğrenme</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">IoT Çalışma Algoritması</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">İletişim</a>
+      </li>    
+    </ul>
+  </div>  
+</nav>
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Nesnelerin İnterneti Nedir?</h2>
+      <img src="https://maker.robotistan.com/wp-content/uploads/2021/08/compressefd.jpg">
+      </img>
+      <br>
+      <br>
+      <p>Nesnelerin İnterneti (IoT), internet üzerinden diğer cihaz ve sistemlerle veri bağlantısı ve paylaşımı amacıyla sensörler, yazılımlar ve diğer teknolojilerle gömülü olan fiziksel nesnelerin ağını açıklar. Bu cihazlar, sıradan ev nesnelerinden gelişmiş endüstriyel araçlara kadar değişiklik gösterir.</p>
+      <h3>Endüstriyel IoT ve Kullanım Alanları Nedir?</h3>
+      <p>Endüstriyel IoT (IIoT), özellikle bulut teknolojilerini kullanan sensör ve cihazların enstrümantasyonu ve kontrolü bakımından, IoT teknolojisinin endüstriyel ortamlarda uygulanmasını ifade eder. İyi bir IIoT örneği için bu Titan kullanım senaryosu PDF dosyasına bakın. Son zamanlarda, endüstriler kablosuz otomasyon ve kontrol elde etmek için makineler arası iletişimi (M2M) kullanmıştır. Ancak bulut teknolojisinin ve benzer teknolojilerin (analitik ve makine öğrenimi gibi) ortaya çıkmasıyla birlikte endüstriler yeni bir otomasyon katmanı elde edebilir ve yeni gelir ve iş modelleri oluşturabilir. IIoT bazen sanayi devriminin dördüncü dalgası veya Endüstri 4.0 olarak adlandırılır. IIoT için bazı yaygın kullanımlar şunlardır:
+
+Endüstriyel IoT (IIoT), özellikle bulut teknolojilerini kullanan sensör ve cihazların enstrümantasyonu ve kontrolü bakımından, IoT teknolojisinin endüstriyel ortamlarda uygulanmasını ifade eder. İyi bir IIoT örneği için bu Titan kullanım senaryosu PDF dosyasına bakın. Son zamanlarda, endüstriler kablosuz otomasyon ve kontrol elde etmek için makineler arası iletişimi (M2M) kullanmıştır. Ancak bulut teknolojisinin ve benzer teknolojilerin (analitik ve makine öğrenimi gibi) ortaya çıkmasıyla birlikte endüstriler yeni bir otomasyon katmanı elde edebilir ve yeni gelir ve iş modelleri oluşturabilir. IIoT bazen sanayi devriminin dördüncü dalgası veya Endüstri 4.0 olarak adlandırılır. IIoT için bazı yaygın kullanımlar şunlardır:
+</p>
+      <ul class="nav nav-pills flex-column">
+        <li class="nav-item">
+          <a class="nav-link disable" href="#">Akıllı üretim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bağlantılı varlıklar ve önleyici ve öngörüye dayalı bakım
+</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Global çapta ürünler sunan üretici firmalar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Akıllı güç elektronik tabloları</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Akıllı şehirler</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bağlantılı lojistik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Akıllı dijital tedarik zincirleri</a>
+        </li>
+      </ul>
+      <h4>Hangi teknolojiler IoT'yi mümkün hale getirdi?</h4>
+      <p>IoT fikri uzun zamandır mevcut olsa da, bir dizi farklı teknolojideki son gelişmelerden oluşan bir koleksiyon bu fikri pratik hale getirmiştir.
+
+Düşük maliyetli, düşük güçlü sensör teknolojisine erişim. Uygun fiyatlı ve güvenilir sensörler, daha fazla üretici için IoT teknolojisini mümkün kılıyor.
+Bağlanabilirlik. İnternet için bir dizi ağ protokolü, sensörlerin buluta ve etkin veri aktarımı için diğer "nesnelere" bağlanmasını kolaylaştırdı.
+Bulut bilişim platformları. Bulut platformlarının kullanılabilirliğinin artması, hem işletmelerin hem de tüketicilerin gerçekten yönetmek zorunda kalmadan ölçeklendirme amacıyla ihtiyaç duydukları altyapıya erişmelerine olanak sağlar.
+Makine öğrenimi ve analitik. Makine öğrenimi ve analitik alanındaki gelişmelerin yanı sıra bulutta depolanan çeşitli ve çok sayıda veriye erişim sayesinde işletmeler daha hızlı ve daha kolay bir şekilde içgörü toplayabilir. Bu müttefik teknolojilerin ortaya çıkması IoT'nin sınırlarını zorlamaya devam etmekte ve IoT tarafından üretilen veriler de bu teknolojileri beslemektedir.
+Etkileşim yapay zekası (AI). Sinir ağlarındaki gelişmeler, doğal dil işlemeyi (NLP) IoT cihazlarına (örneğin dijital kişisel asistanlar Alexa, Cortana ve Siri) getirmiştir ve bunları evde kullanım için çekici, uygun fiyatlı ve uygulanabilir hale getirmiştir.
+
+      <hr class="d-sm-none">
+    </div>
+    <div class="col-sm-8">
+      <h2>Hangi endüstriler IoT'den yararlanabilir?
+</h2>
+      <img class="kucuk-resim" src="https://www.kotaman.com/wp-content/uploads/2020/01/nesnelerin-interneti-01.jpg">
+
+      <br>
+      <br>
+
+      <h5>Üretim</h5
+      <p>Üreticiler, sensörler olması yakın bir hata algıladığında ekipmanda proaktif bakımı sağlamak için üretim hattı izlemeyi kullanarak bir rekabet avantajı elde edebilir. Sensörler aslında üretim çıktısının risk taşıdığı zamanları ölçebilir. Sensör uyarılarının yardımıyla üreticiler, ekipman onarılmadan önce ekipmanın doğruluğunu ve üretimden kaldırılıp kaldırılmayacağını hızla kontrol edebilir. Bu, şirketlerin işletme maliyetlerini düşürmesini, daha iyi çalışma süreleri elde etmesini ve varlık performans yönetimini geliştirmesini sağlar.</p>
+
+        <h5>Otomotiv</h5
+        <p>Otomotiv sektörü, IoT uygulamalarının kullanımından önemli avantajlar elde etmeyi amaçlamaktadır. IoT'nin üretim hatlarına uygulanmasının avantajlarına ek olarak, sensörler hâlihazırda yolda olan araçlarda olması yakın ekipman arızasını tespit edebilir ve sürücüyü ayrıntılar ve öneriler sunarak uyarabilir. IoT tabanlı uygulamalar tarafından toplanan bilgiler sayesinde, otomotiv üreticileri ve tedarikçileri, otomobillerin nasıl çalıştırılmaya devam edeceği ve otomobil sahiplerinin nasıl bilgilendirileceği hakkında daha fazla bilgi edinebilir.</p>
+
+        <h5>Taşımacılık ve Lojistik</h5>
+        <p>Taşımacılık ve lojistik sistemleri çeşitli IoT uygulamalarından yararlanır. Envanteri taşıyan otomobil, kamyon, gemi ve tren filoları, IoT sensör verileri sayesinde hava koşullarına, araç kullanılabilirliğine veya sürücü müsaitliğine göre yeniden yönlendirilebilir. Envanterin kendisi ayrıca takip ve izleme ve sıcaklık kontrolü izleme için sensörler ile donatılabilir. Yiyecek ve içecek, çiçek ve ilaç endüstrileri genellikle sıcaklıklar ürün açısından tehdit oluşturabilecek düzeyde yükseldiğinde veya düştüğünde uyarı gönderen IoT izleme uygulamalarından büyük fayda sağlayacak sıcaklığa duyarlı envanter taşırlar.</p>
+        <h5>Perakende</h5>
+        <p>IoT uygulamaları, perakende satış şirketlerinin envanteri yönetmesine, müşteri deneyimini geliştirmesine, tedarik zincirini optimize etmesine ve operasyonel maliyetleri azaltmasına olanak tanır. Örneğin, ağırlık sensörleri ile donatılmış akıllı raflar RFID tabanlı bilgileri toplayabilir ve envanterleri otomatik olarak izlemek ve kalemler azalıyorsa uyarıları tetiklemek için verileri IoT platformuna gönderebilir. Beacons, ilgi çekici bir deneyim sunmak için hedeflenen teklifleri ve promosyonları müşterilere iletebilir.</p>
+        <h5>Kamu Sektörü</h5>
+        <p>IoT'nin kamu sektöründeki ve hizmetle ilgili diğer ortamlardaki avantajları benzer şekilde geniş kapsamlıdır. Örneğin, devlete ait kamu hizmetleri IoT tabanlı uygulamaları kullanarak kullanıcılarına toplu kesintiler ve hatta daha küçük su, elektrik veya kanalizasyon hizmetleri kesintilerini bildirebilir. IoT uygulamaları, bir kesintinin kapsamına ilişkin verileri toplayabilir ve kaynakları devreye alarak kamu hizmetlerinin keisntilerden daha yüksek hızda kurtulmasına yardımcı olabilir.</p>
+        <h5>Sağlık Hizmetleri</h5>
+        <p>IoT varlık izleme özelliği, sağlık hizmetleri sektörüne çeşitli avantajlar sağlar. Doktorlar, hemşireler ve hastane hizmetlileri genellikle tekerlekli sandalyeler gibi hasta yardım varlıklarının yerini tam olarak bilmelidir. Bir hastanenin tekerlekli sandalyeleri IoT sensörleri ile donatıldığında, IoT varlık izleme uygulamasından izlenebilirler, böylece tekerlekli sandalye arayan herkes müsait olan en yakın tekerlekli sandalyeyi bulabilir. Birçok hastane varlığı, her departmandaki fiziksel varlıklar için uygun kullanım ve finansal muhasebe sağlamak üzere bu şekilde izlenebilir.</p>
+        <h5>Tüm Endüstrilerde Genel Güvenlik</h5>
+        <p>IoT, fiziksel varlıkları izlemeye ek olarak çalışan güvenliğini artırmak için de kullanılabilir. Madenler, petrol ve benzin alanları ve kimyasal ve elektrik santralleri gibi tehlikeli ortamlarda çalışanlar, kendilerini etkileyebilecek tehlikeli bir olayın meydana gelmesi hakkında bilgi sahibi olmalıdır. IoT sensör tabanlı uygulamalara bağlı olduklarında, kazalar konusunda bilgilendirilebilirler veya mümkün olduğunca hızlı bir şekilde kurtarılabilirler. IoT uygulamaları, insan sağlığını ve çevre koşullarını izleyebilen giyilebilir cihazlar için de kullanılır. Bu tür uygulamalar sadece insanların kendi sağlık durumlarını daha iyi anlamalarına yardımcı olmakla kalmaz, aynı zamanda hekimlerin hastaları uzaktan izlemesine izin verir.</p>
+
+      <h2>Hangi Teknolojiler IoT'yi Mümkün Hale Getirdi?</h2>
+      <img src="https://binbiriz.com/sites/default/files/styles/responsive_image_768/public/media/image/odin_islerimiz_gorsel.jpg?itok=Sdq_JEwE"></img>
+      <br>
+      <br>
+      <h5>Düşük maliyetli, düşük güçlü sensör teknolojisine erişim</h5>
+      <p>Uygun fiyatlı ve güvenilir sensörler, daha fazla üretici için IoT teknolojisini mümkün kılıyor.</p>
+      <h5>Bağlanabilirlik</h5>
+      <p>İnternet için bir dizi ağ protokolü, sensörlerin buluta ve etkin veri aktarımı için diğer "nesnelere" bağlanmasını kolaylaştırdı.</p>
+      <h5>Bulut bilişim platformları</h5>
+      <p>Bulut platformlarının kullanılabilirliğinin artması, hem işletmelerin hem de tüketicilerin gerçekten yönetmek zorunda kalmadan ölçeklendirme amacıyla ihtiyaç duydukları altyapıya erişmelerine olanak sağlar.</p>
+        <h5>Makine öğrenimi ve analitik</h5>
+        <p>Makine öğrenimi ve analitik alanındaki gelişmelerin yanı sıra bulutta depolanan çeşitli ve çok sayıda veriye erişim sayesinde işletmeler daha hızlı ve daha kolay bir şekilde içgörü toplayabilir. Bu müttefik teknolojilerin ortaya çıkması IoT'nin sınırlarını zorlamaya devam etmekte ve IoT tarafından üretilen veriler de bu teknolojileri beslemektedir.</p>
+        <h5>Etkileşim Yapay Zekası (Al).</h5>
+        <p>Sinir ağlarındaki gelişmeler, doğal dil işlemeyi (NLP) IoT cihazlarına (örneğin dijital kişisel asistanlar Alexa, Cortana ve Siri) getirmiştir ve bunları evde kullanım için çekici, uygun fiyatlı ve uygulanabilir hale getirmiştir.</p>
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h6>3.Hafta Ödevi © 2024 - Sena Cankul</h6>
+</div>
+
+</body>
+</html>
